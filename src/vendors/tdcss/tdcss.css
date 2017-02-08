@@ -1,0 +1,552 @@
+html, body{
+    overflow-x:hidden;
+}
+
+*{
+    outline: none;
+}
+
+body button{
+    background-color: #273a58;
+    color: #fff;
+    -webkit-transition: all 0.7s ease;
+    -moz-transition: all 0.7s ease;
+    -o-transition: all 0.7s ease;
+    transition: all 0.7s ease;
+    padding: 10px 18px;
+}
+
+body form label{
+    font-weight: bold;
+}
+
+body select, body input:not([type='checkbox']){
+    height: 45px;
+}
+
+body form .form-error{
+    color: red;
+    font-size: 12px;
+    position: absolute;
+}
+
+body button.invalid{
+    opacity: 0;
+    visibility: hidden;
+}
+
+body button.delete,
+body button.close {
+    background-color: #bd081c;
+}
+body button.delete:focus,
+body button.close:focus,
+body button.delete:hover,
+body button.close:hover {
+    background-color: #ff292f;
+    color: #111;
+}
+
+body button.add,
+body button.save,
+body button.new-page,
+body button.new,
+body button.new-btn {
+    background-color: #647e42;
+}
+body button.add:focus,
+body button.save:focus,
+body button.new-page:focus,
+body button.new:focus,
+body button.add:hover,
+body button.save:hover,
+body button.new-page:hover,
+body button.new:hover {
+    background-color: #789158;
+    color: #111;
+}
+body button.config{
+    background-color: #3b3e43;
+}
+body button.config:hover,
+body button.config:focus {
+    background-color: #777777;   
+    color: #111;
+}
+body button.options {
+    background-color: #2353a0;
+}
+
+body button.options:focus,
+body button.options:hover {
+    background-color: #508ced;
+    color: #111;
+}
+
+body .trans-all{
+    -webkit-transition: all 0.7s ease;
+    -moz-transition: all 0.7s ease;
+    -o-transition: all 0.7s ease;
+    transition: all 0.7s ease;
+}
+
+body input.td-form, select.td-form{
+    height: 45px;
+    margin-bottom: 0px;
+}
+
+body .center-text{
+    text-align: center;
+}
+
+body .margin-top-0{
+    margin-top: 0px;
+}
+
+body .margin-top-5{
+    margin-top: 5px;
+}
+
+body .margin-top-10{
+    margin-top: 10px;
+}
+body .margin-top-15{
+    margin-top: 15px;
+}
+body .margin-top-20{
+    margin-top: 20px;
+}
+body .margin-top-25{
+    margin-top: 25px;
+}
+body .margin-top-30{
+    margin-top: 30px;
+}
+body .margin-top-40{
+    margin-top: 40px;
+}
+body .margin-top-50{
+    margin-top: 50px;
+}
+body .margin-top-60{
+    margin-top: 60px;
+}
+body .margin-top-70{
+    margin-top: 70px;
+}
+body .margin-top-80{
+    margin-top: 80px;
+}
+body .margin-top-90{
+    margin-top: 90px;
+}
+body .margin-top-100{
+    margin-top: 100px;
+}
+body .margin-auto{
+    margin-left: auto;
+    margin-right: auto;
+}
+body .pad-top-0{
+    padding-top: 0px;
+}
+body .pad-top-10{
+    padding-top: 10px;
+}
+body .pad-top-20{
+    padding-top: 20px;
+}
+body .pad-top-30{
+    padding-top: 30px;
+}
+body .pad-top-40{
+    padding-top: 40px;
+}
+body .pad-top-50{
+    padding-top: 50px;
+}
+body .pad-top-60{
+    padding-top: 60px;
+}
+body .pad-top-70{
+    padding-top: 70px;
+}
+body .pad-top-80{
+    padding-top: 80px;
+}
+body .pad-top-90{
+    padding-top: 90px;
+}
+body .pad-top-100{
+    padding-top: 100px;
+}
+body .pad-bottom-0{
+    padding-bottom: 0px;
+}
+body .pad-bottom-10{
+    padding-bottom: 10px;
+}
+body .pad-bottom-20{
+    padding-bottom: 20px;
+}
+body .pad-bottom-30{
+    padding-bottom: 30px;
+}
+body .pad-bottom-40{
+    padding-bottom: 40px;
+}
+body .pad-bottom-50{
+    padding-bottom: 50px;
+}
+body .pad-bottom-60{
+    padding-bottom: 60px;
+}
+body .pad-bottom-70{
+    padding-bottom: 70px;
+}
+body .pad-bottom-80{
+    padding-bottom: 80px;
+}
+body .pad-bottom-90{
+    padding-bottom: 90px;
+}
+body .pad-bottom-100{
+    padding-bottom: 100px;
+}
+body .padding-auto{
+    padding-left: auto;
+    padding-right: auto;
+}
+body .no-pad{
+    padding: 0px;
+}
+body .body-wrapper .page-data.admin{
+    max-width: calc(100% - 100px);
+    margin-left: 100px;
+}
+
+@media only screen and (min-width: 64em) { 
+    body .no-pad-large{
+        padding: 0px;
+    }
+}
+
+@media only screen and (min-width: 40.063em) and (max-width: 64em) { 
+    body .no-pad-medium{
+        padding: 0px;
+    }
+    body .margin-top-med-0{
+        margin-top: 0px;
+    }
+    body .margin-top-med-10{
+        margin-top: 10px;
+    }
+    body .margin-top-med-20{
+        margin-top: 20px;
+    }
+    body .margin-top-med-30{
+        margin-top: 30px;
+    }
+    body .margin-top-med-40{
+        margin-top: 40px;
+    }
+    body .margin-top-med-50{
+        margin-top: 50px;
+    }
+    body .margin-top-med-60{
+        margin-top: 60px;
+    }
+    body .margin-top-med-70{
+        margin-top: 70px;
+    }
+    body .margin-top-med-80{
+        margin-top: 80px;
+    }
+    body .margin-top-med-90{
+        margin-top: 90px;
+    }
+    body .margin-top-med-100{
+        margin-top: 100px;
+    }
+    body .pad-top-med-0{
+        padding-top: 0px;
+    }
+    body .pad-top-med-10{
+        padding-top: 10px;
+    }
+    body .pad-top-med-20{
+        padding-top: 20px;
+    }
+    body .pad-top-med-30{
+        padding-top: 30px;
+    }
+    body .pad-top-med-40{
+        padding-top: 40px;
+    }
+    body .pad-top-med-50{
+        padding-top: 50px;
+    }
+    body .pad-top-med-60{
+        padding-top: 60px;
+    }
+    body .pad-top-med-70{
+        padding-top: 70px;
+    }
+    body .pad-top-med-80{
+        padding-top: 80px;
+    }
+    body .pad-top-med-90{
+        padding-top: 90px;
+    }
+    body .pad-top-med-100{
+        padding-top: 100px;
+    }
+    body .pad-bottom-med-0{
+        padding-bottom: 0px;
+    }
+    body .pad-bottom-med-10{
+        padding-bottom: 10px;
+    }
+    body .pad-bottom-med-20{
+        padding-bottom: 20px;
+    }
+    body .pad-bottom-med-30{
+        padding-bottom: 30px;
+    }
+    body .pad-bottom-med-40{
+        padding-bottom: 40px;
+    }
+    body .pad-bottom-med-50{
+        padding-bottom: 50px;
+    }
+    body .pad-bottom-med-60{
+        padding-bottom: 60px;
+    }
+    body .pad-bottom-med-70{
+        padding-bottom: 70px;
+    }
+    body .pad-bottom-med-80{
+        padding-bottom: 80px;
+    }
+    body .pad-bottom-med-90{
+        padding-bottom: 90px;
+    }
+    body .pad-bottom-med-100{
+        padding-bottom: 100px;
+    }
+}
+
+@media only screen and (max-width: 64em) { 
+    
+    .no-pad-med-down{
+        padding: 0px;
+    }
+
+    body .margin-top-med-down-0{
+        margin-top: 0px;
+    }
+    body .margin-top-med-down-10{
+        margin-top: 10px;
+    }
+    body .margin-top-med-down-20{
+        margin-top: 20px;
+    }
+    body .margin-top-med-down-30{
+        margin-top: 30px;
+    }
+    body .margin-top-med-down-40{
+        margin-top: 40px;
+    }
+    body .margin-top-med-down-50{
+        margin-top: 50px;
+    }
+    body .margin-top-med-down-60{
+        margin-top: 60px;
+    }
+    body .margin-top-med-down-70{
+        margin-top: 70px;
+    }
+    body .margin-top-med-down-80{
+        margin-top: 80px;
+    }
+    body .margin-top-med-down-90{
+        margin-top: 90px;
+    }
+    body .margin-top-med-down-100{
+        margin-top: 100px;
+    }
+    body .pad-top-med-down-0{
+        padding-top: 0px;
+    }
+    body .pad-top-med-down-10{
+        padding-top: 10px;
+    }
+    body .pad-top-med-down-20{
+        padding-top: 20px;
+    }
+    body .pad-top-med-down-30{
+        padding-top: 30px;
+    }
+    body .pad-top-med-down-40{
+        padding-top: 40px;
+    }
+    body .pad-top-med-down-50{
+        padding-top: 50px;
+    }
+    body .pad-top-med-down-60{
+        padding-top: 60px;
+    }
+    body .pad-top-med-down-70{
+        padding-top: 70px;
+    }
+    body .pad-top-med-down-80{
+        padding-top: 80px;
+    }
+    body .pad-top-med-down-90{
+        padding-top: 90px;
+    }
+    body .pad-top-med-down-100{
+        padding-top: 100px;
+    }
+    body .pad-bottom-med-down-0{
+        padding-bottom: 0px;
+    }
+    body .pad-bottom-med-down-10{
+        padding-bottom: 10px;
+    }
+    body .pad-bottom-med-down-20{
+        padding-bottom: 20px;
+    }
+    body .pad-bottom-med-down-30{
+        padding-bottom: 30px;
+    }
+    body .pad-bottom-med-down-40{
+        padding-bottom: 40px;
+    }
+    body .pad-bottom-med-down-50{
+        padding-bottom: 50px;
+    }
+    body .pad-bottom-med-down-60{
+        padding-bottom: 60px;
+    }
+    body .pad-bottom-med-down-70{
+        padding-bottom: 70px;
+    }
+    body .pad-bottom-med-down-80{
+        padding-bottom: 80px;
+    }
+    body .pad-bottom-med-down-90{
+        padding-bottom: 90px;
+    }
+    body .pad-bottom-med-down-100{
+        padding-bottom: 100px;
+    }
+
+}
+
+
+@media only screen and (max-width: 40.063em) { 
+    .no-pad-small{
+        padding: 0px;
+    }
+    body .margin-top-small-0{
+        margin-top: 0px;
+    }
+    body .margin-top-small-10{
+        margin-top: 10px;
+    }
+    body .margin-top-small-20{
+        margin-top: 20px;
+    }
+    body .margin-top-small-30{
+        margin-top: 30px;
+    }
+    body .margin-top-small-40{
+        margin-top: 40px;
+    }
+    body .margin-top-small-50{
+        margin-top: 50px;
+    }
+    body .margin-top-small-60{
+        margin-top: 60px;
+    }
+    body .margin-top-small-70{
+        margin-top: 70px;
+    }
+    body .margin-top-small-80{
+        margin-top: 80px;
+    }
+    body .margin-top-small-90{
+        margin-top: 90px;
+    }
+    body .margin-top-small-100{
+        margin-top: 100px;
+    }
+    body .pad-top-small-0{
+        padding-top: 0px;
+    }
+    body .pad-top-small-10{
+        padding-top: 10px;
+    }
+    body .pad-top-small-20{
+        padding-top: 20px;
+    }
+    body .pad-top-small-30{
+        padding-top: 30px;
+    }
+    body .pad-top-small-40{
+        padding-top: 40px;
+    }
+    body .pad-top-small-50{
+        padding-top: 50px;
+    }
+    body .pad-top-small-60{
+        padding-top: 60px;
+    }
+    body .pad-top-small-70{
+        padding-top: 70px;
+    }
+    body .pad-top-small-80{
+        padding-top: 80px;
+    }
+    body .pad-top-small-90{
+        padding-top: 90px;
+    }
+    body .pad-top-small-100{
+        padding-top: 100px;
+    }
+    body .pad-bottom-small-0{
+        padding-bottom: 0px;
+    }
+    body .pad-bottom-small-10{
+        padding-bottom: 10px;
+    }
+    body .pad-bottom-small-20{
+        padding-bottom: 20px;
+    }
+    body .pad-bottom-small-30{
+        padding-bottom: 30px;
+    }
+    body .pad-bottom-small-40{
+        padding-bottom: 40px;
+    }
+    body .pad-bottom-small-50{
+        padding-bottom: 50px;
+    }
+    body .pad-bottom-small-60{
+        padding-bottom: 60px;
+    }
+    body .pad-bottom-small-70{
+        padding-bottom: 70px;
+    }
+    body .pad-bottom-small-80{
+        padding-bottom: 80px;
+    }
+    body .pad-bottom-small-90{
+        padding-bottom: 90px;
+    }
+    body .pad-bottom-small-100{
+        padding-bottom: 100px;
+    }
+
+}

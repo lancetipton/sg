@@ -1,0 +1,91 @@
+.footer-wrapper{
+	background-color: #252d36;
+	position: relative;
+	display: inline-block;
+	width: 100%;
+}
+
+.footer .contact-info {}
+.footer .contact-info .footer-items {
+	list-style-type: none;
+	margin-left: 0px;
+	text-align: right;
+	margin-bottom: 0px; 
+  position: absolute;
+  right: 0.9375rem;
+  top: 20px;
+}
+.footer .contact-info .footer-items .item {
+	color: #fff;
+  font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+  font-size: 12px;
+}
+.footer .contact-info .footer-items .contact {
+	color: #fff;
+}
+.footer .contact-info .footer-items .link {
+	color: #fff;
+}
+
+.footer .contact-info .footer-items a:hover {
+	color: #00B7FF;
+}
+
+.footer .copyright {
+	color: #fff;
+  text-transform: uppercase;
+  font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+  font-size: 12px;
+}
+
+.footer .create-by {
+	color: #fff;
+  text-transform: uppercase;
+  font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+  font-size: 10px;
+  text-align: center;
+	display: inline-block;	
+  width: 100%;
+}
+
+.footer-wrapper{
+	margin-top: 200px;
+}
+
+.footer-image-wrapper {
+	display: inline-block;
+	width: 100%;
+}
+.footer-image-wrapper .footer-image {
+	position: absolute;
+	bottom: 12px;
+	z-index: -1;
+}
+
+.footer-image-wrapper .footer-image.image-2{
+	right: 0px;
+}
+
+@media only screen and (max-width: 40em) { 
+
+	.footer-wrapper{
+		margin-top: 0px;
+	}
+
+
+	.footer .contact-info .footer-items {
+	  position: relative;
+	  text-align: center;
+		display: inline-block;
+    width: 100%;
+    top: 6px;
+    right: initial;
+    margin-top: 15px;
+	}
+
+	.footer .create-by {
+		color: #fff;
+		margin-top: 20px;
+	}
+
+}

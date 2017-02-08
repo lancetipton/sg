@@ -1,0 +1,24 @@
+{
+	"pages": {
+		"home": {
+			"name": "home",
+			"meta_data": "This is a Home test",
+			"content": "I Am Home Page Content"
+		},
+		"about": {
+			"name": "about",
+			"meta_data": "This is a About test",
+			"content": "I Am About Page Content"
+		},
+		"press": {
+			"name": "press",
+			"meta_data": "This is a Press test",
+			"content": "I Am Press Page Content"
+		},
+		"blog": {
+			"name": "blog",
+			"meta_data": "This is a Blog test",
+			"content": "Comming Soon!"
+		}
+	}
+}

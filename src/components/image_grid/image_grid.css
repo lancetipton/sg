@@ -1,0 +1,9 @@
+.image-grid-items li img.small-image{
+	cursor: pointer;
+  border: 2px solid transparent;
+}
+
+.image-grid-items li:hover img.small-image{
+	cursor: pointer;
+	border: 2px solid #00B7FF;
+}
