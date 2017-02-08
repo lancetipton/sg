@@ -1,7 +1,7 @@
 # React Site for StormyGoats.com:
 
 ### About
-Just a simple site built using react for the mobile game StormyGoats.com.
+Just a simple site built using react for the mobile game StormyGoats. See the site here: https://www.stromygoats.com
 
 ### Check out the game:
 #### Download StormyGoats now:
